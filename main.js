@@ -1,17 +1,19 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
-function toF(x){
-  return (x * 9/5) +32;
+let celsius = getInput(0);
+
+function conversion(val){
+  return (val * 9/5 + 32)
 }
-let result = toF(0);
-console.log(0 + ' -> '+   result)
 
-let result2 = toF(100);
-console.log(100 + ' -> '+ result2)
+let farenheit = conversion(celsius)
 
-let result3 = toF(5);
-console.log(5 + ' -> '+result3)
+console.log(celsius + ' degrees celsius is ' + farenheit + ' degrees in farenheit.')
+
+
+
+
 
 
 /*******************************************************************************
