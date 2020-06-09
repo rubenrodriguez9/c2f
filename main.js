@@ -1,9 +1,17 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+function toF(x){
+  return (x * 9/5) +32;
+}
+let result = toF(0);
+console.log(0 + ' -> '+   result)
 
+let result2 = toF(100);
+console.log(100 + ' -> '+ result2)
 
-
+let result3 = toF(5);
+console.log(5 + ' -> '+result3)
 
 
 /*******************************************************************************
@@ -35,7 +43,6 @@
   For most apps, you will need multiple inputs from the user, but for this 
   first one, getInput(0) should be all you need.
  ******************************************************************************************/
-
 function getInput(n) {
-  return process.argv[n + 2];
+  return process.argv[n + 2]
 }
